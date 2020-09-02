@@ -29,6 +29,10 @@ public class bean {
             case '*':
                 result = first * second;
                 break;
+                
+            case '%':
+                result = first % second;
+                break;
 
             case '/':
                 result = first / second;
